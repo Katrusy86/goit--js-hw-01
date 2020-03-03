@@ -1,6 +1,6 @@
 'use strict'
 let cost;
-let country = prompt ('введите название страны');
+let country = prompt('введите название страны');
 let message;
 
 switch(country.toLowerCase()) {
@@ -29,4 +29,4 @@ switch(country.toLowerCase()) {
     message ='В вашей стране доставка не доступна';
 }
 
-alert (message)
+alert(message)

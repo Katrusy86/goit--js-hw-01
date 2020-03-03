@@ -2,7 +2,7 @@
 
 const credits = 23580;
 const pricePerDroid = 3000;
-const droidNumber = prompt ('Введите количество дроидов');
+const droidNumber = prompt('Введите количество дроидов');
 let message;
 let totalPrice; 
 
@@ -20,4 +20,4 @@ else {
         message = `Вы купили ${droidNumber} дроидов, на счету осталось ${cash} кредитов.`
     }
 }
-    alert (message)
+    alert(message)
