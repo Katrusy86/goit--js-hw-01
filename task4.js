@@ -16,7 +16,7 @@ else {
         message = "Недостаточно средств на счету!";
     }
     else {
-        let cash = credits - totalPrice;
+        const cash = credits - totalPrice;
         message = `Вы купили ${droidNumber} дроидов, на счету осталось ${cash} кредитов.`
     }
 }
