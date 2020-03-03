@@ -1,9 +1,7 @@
 'use strict'
 let cost;
-let country;
+let country = prompt ('введите название страны');
 let message;
-
-country = prompt ('введите название страны'); 
 
 switch(country.toLowerCase()) {
     case 'китай':
