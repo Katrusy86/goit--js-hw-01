@@ -2,12 +2,9 @@
 
 const credits = 23580;
 const pricePerDroid = 3000;
-let droidNumber;
+const droidNumber = prompt ('Введите количество дроидов');
 let message;
-let totalPrice;
-let cash 
-
-droidNumber = prompt ('Введите количество дроидов');
+let totalPrice; 
 
 if (droidNumber === null) {
     message = "Отменено пользователем!"
